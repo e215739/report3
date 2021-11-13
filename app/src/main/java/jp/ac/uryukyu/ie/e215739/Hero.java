@@ -52,34 +52,66 @@ public class Hero {
         }
     }
 
+    /**
+     * メンバ変数「name」に値を設定するメソッド
+     * @param _name　設定したいname
+     */
     public void setName(String _name){
         this.name = _name;
     }
-
+    
+    /**
+     * メンバ変数「name」を取得するメソッド
+     * @return　取得したいname
+     */
     public String getName(){
         return this.name;
     }
 
+    /**
+     * メンバ変数「hitPoint」に値を設定するメソッド
+     * @param _hitPoint　設定したいhitPoint
+     */
     public void setHitPoint(int _hitPoint){
         this.hitPoint = _hitPoint;
     }
 
+    /**
+     * メンバ変数「hitPoint」を取得するメソッド
+     * @return　取得したいhitPoint
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
 
+    /**
+     * メンバ変数「attack」に値を設定するメソッド
+     * @param _attack　設定したいattack
+     */
     public void setAttack(int _attack){
         this.attack = _attack;
     }
 
+    /**
+     * メンバ変数「attack」を取得するメソッド
+     * @return　取得したいattack
+     */
     public int getAttack(){
         return this.attack;
     }
 
+    /**
+     * メンバ変数「dead」に値を設定するメソッド
+     * @param _dead　設定したいdead
+     */
     public void setDead(boolean _dead){
         this.dead = _dead;
     }
 
+    /**
+     * メンバ変数「dead」を取得するメソッド
+     * @return　取得したいdead
+     */
     public boolean getDead(){
         return this.dead;
     }
